@@ -1,0 +1,12 @@
+page:
+  title: トップ
+  description: |
+    サービストップページ
+    ログインのための機能を提供する
+  specs:
+  - name: ログイン機能の提供
+    description: |
+      Firebaseを利用してログインの機能を提供する
+
+
+

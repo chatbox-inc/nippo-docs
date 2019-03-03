@@ -1,0 +1,47 @@
+page:
+  title: 出勤情報登録画面
+  description: |
+    出勤情報を登録する
+  parameters:
+    - name: year
+      description: 年情報
+    - name: month
+      description: 月情報
+  table:
+    - title: 出勤情報一覧表示
+      columns:
+        name: 名前
+        label: ラベル
+        description: 説明
+      items:
+        - name: place
+          label: 出勤日
+        - name: place
+          label: 出勤場所
+          description: 出勤場所の選択
+        - name: workin_at
+          label: 出勤時刻
+        - name: workout_at
+          label: 退勤時刻
+        - name: work_for
+          label: 出勤時間
+        - name: rest_for
+          label: 休憩時間
+  specs:
+    - name: 画面構成
+      description: |
+        出勤情報入力フォームを表示して、
+        出勤情報を入力。入力内容は、適宜リアルタイムにFirebaseに同期される
+
+        Firebase のパスは `/reports/$i/{Ymd}` の形式
+
+        出勤日は最初に選択させ、変更できない形に
+
+        すべての入力が完了したらFixed で表示 している更新ボタンを押してAPI経由で
+        バックエンドに連携する。API送信後は下書きを削除
+
+  memo:
+    - name: 画面構成
+      description: |
+        月の出勤情報一覧から出勤情報を選択した時に/report/_year/_month/_dayに遷移
+

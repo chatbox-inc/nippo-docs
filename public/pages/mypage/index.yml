@@ -1,0 +1,15 @@
+page:
+  title: マイページ
+  description: |
+    マイページとしてログイン後のトップ
+    下書き中の出勤情報を取得する
+  specs:
+    - name: 下書き一覧の表示
+      description: |
+        Firebase 上の下書き一覧を表示する
+    - name: 出勤ボタンの表示
+      description: |
+        出勤画面(/new) への動線を提供
+
+
+

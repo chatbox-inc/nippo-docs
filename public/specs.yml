@@ -1,0 +1,38 @@
+info:
+  title: レポートアプリ Project
+  description: |
+    レポートアプリのドキュメント
+servers:
+  - name: テスト環境
+    host: https://angry-davinci-6af3f6.netlify.com/
+    description: pst
+pages:
+  "/":
+    title: トップ
+    description: |
+      サービストップページ
+      ログインのための機能を提供する
+  /mypage:
+    title: マイページ
+    description: |
+      マイページとしてログイン後のトップ
+      下書き中の出勤情報を取得する
+  /new:
+    title: 出勤情報登録画面
+    description: |
+      出勤情報を登録する
+  /reports/_year/_month:
+    title: 月別出勤情報確認画面
+    description: |
+      出勤情報を月ごとに確認する
+  /profile:
+    title: プロフィール確認画面
+    description: |
+      プロフィール情報の確認
+  /profile/edit:
+    title: プロフィール編集
+    description: |
+      プロフィール情報の確認
+
+
+
