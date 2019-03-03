@@ -1,5 +1,7 @@
 # docs
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7861dad1-c3b2-46a1-915d-a2f72d04e990/deploy-status)](https://app.netlify.com/sites/xenodochial-thompson-246225/deploys)
+
 ## Project setup
 ```
 npm install
